@@ -5,7 +5,7 @@
 		<title>QUODO DEMO</title>
 		<link rel="stylesheet" href="../style/index.scss">
   </head>
-  <body data-barba="wrapper" class="background-green">
+  <body data-barba="wrapper">
 
 		<header class="Header">
 			<h1 class="Header-logo"><a href="./index.html">QUODO<br>PAGE 1</a></h1>
@@ -19,12 +19,14 @@
 			</nav>
 		</header>
 
-    <main data-barba="container" data-barba-namespace="button">
+    <main class="background-green" data-barba="container" data-barba-namespace="button">
 
 			<a href="./page-two.html" class="Button button-transition background-yellow">page two</a>
 			<a href="./page-three.html" class="Button button-transition background-lightblue">page three</a>
 
     </main>
+
+		<div id="slide"></div>
 
     <script src="../script/index.js"></script>
   </body>
