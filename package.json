@@ -1,0 +1,22 @@
+{
+  "name": "demo-quodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel views/*.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.7.0"
+  }
+}
